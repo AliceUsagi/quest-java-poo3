@@ -28,11 +28,13 @@ public class Eagle extends Bird implements Fly {
     }
 
     public int ascend(int meters){
+	System.out.println("Eye Cherry flies upward, altitude : " + meters );	
 	return meters;
     }	
 
 
     public int descend(int meters){
+	System.out.println ("Eye Cherry flies downward, altitude : " + meters );	
 	return meters;
     }
 
